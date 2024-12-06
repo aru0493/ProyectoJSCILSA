@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans";
+  background-color: lightblue;
+}
+
+.contenedor, .contenedorPadre{
+  background-color: lightblue;
+  border-radius: 10px;
+  width: 1200px;
+  margin: 15px auto;
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contenedorTitulo {
+  background-color: lightblue;
+  border-radius: 10px;
+  width: 1200px;
+  margin: 15px auto;
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.cont {
+  height: auto;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px;
+  padding: 10px 30px;
+  /* float: right; */
+}
+
+.contenedor3 {
+  width: 700px;
+}
+
+/* estilo del contenido para el DOM */
+.oculto {
+  display: none;
+}
+
+.visible {
+  display: inline;
+}
+
+a {
+  color: blue;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #fff;
+  background-color: #b22222;
+}
+
+#infopag {
+  background-color: #2d8a25;
+  border-radius: 10px;
+  text-align: center;
+  display: block;
+  padding: 20px;
+  margin: 20px 0px;
+  font-size: 25px;
+  border: thin solid rgb(29, 13, 117);
+}
+
+input[type="button"] {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-family: "ROBOTO";
+  background-color: #277820;
+  color: #fff;
+  border: 0;
+  border: 1px solid #000;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 20px 0px;
+}
+
+.buttonAddRem:last-of-type {
+  background-color: #b22222;
+}
+
+.clear {
+  clear: both;
+}
+
+@media only screen and (max-width: 464px) {
+  .button {
+    margin-bottom: 5px;
+  }
+}
+
+/*-----------------------------------------*/
+
+.contenedor2 {
+  width: 450px;
+  height: auto;
+  margin: 10px auto;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px;
+  padding: 10px 30px;
+}
+
+fieldset {
+  border-radius: 20px;
+  padding: 15px;
+  background: lightblue;
+  margin: 15px 0;
+  box-shadow: 3px 3px 3px;
+  text-align: center;
+}
+
+legend {
+  padding: 5px;
+  margin-left: 40px;
+  background: lightblue;
+  border-radius: 5px;
+  text-align: left;
+}
+
+span {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 16px;
+}
+
+h5 {
+  text-align: center;
+  font: bold 14px verdana;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 5px auto;
+  text-align: center;
+  width: 100%;
+}
+
+p label {
+  width: 110px;
+  text-align: right;
+  margin-right: 0;
+  display: inline-block;
+}
+p input {
+  margin-left: 0px;
+  width: 100px;
+}
+
+input[type="button"]:hover {
+  box-shadow: 2px 2px 2px;
+}
+
+hr{
+  border: none;
+}
+
+
+/*---------------------------------*/
+.contenedorJuego{
+    width: 1000px;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px;
+    padding: 10px 30px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    
+}
+
